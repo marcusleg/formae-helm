@@ -122,6 +122,9 @@ formae:
   ## Raw additional PKL config lines appended to formae.conf.pkl
   extraConfig: ""
 
+  ## Full override for formae.conf.pkl contents. Replaces generated config entirely.
+  configOverride: ""
+
 ## Service configuration
 service:
   type: ClusterIP

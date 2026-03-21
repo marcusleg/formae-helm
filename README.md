@@ -43,6 +43,13 @@ See [`examples/quickstart-monitoring.yaml`](examples/quickstart-monitoring.yaml)
 | `formae.datastore.postgres.host` | External PostgreSQL host (when `postgresql.enabled=false`) | `""` |
 | `formae.datastore.auroraDataAPI.clusterARN` | Aurora cluster ARN | `""` |
 
+### formae Configuration
+
+| Parameter | Description                                                              | Default |
+|-----------|--------------------------------------------------------------------------|---------|
+| `formae.extraConfig` | Raw PKL lines appended to the automatically generated `formae.conf.pkl`  | `""` |
+| `formae.configOverride` | Full override for `formae.conf.pkl`. Replaces generated config entirely. | `""` |
+
 ### PostgreSQL (in-cluster)
 
 | Parameter | Description | Default |
